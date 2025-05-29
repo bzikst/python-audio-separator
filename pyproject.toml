@@ -41,7 +41,7 @@ torch_directml = {version = "*", optional = true}
 tqdm = "*"
 pydub = ">=0.25"
 audioop-lts = { python = ">=3.13" } # https://github.com/jiaaro/pydub/issues/815
-onnx = { version = ">=1.18.0", allow-prereleases = true }
+onnx = { version = ">=1.17", allow-prereleases = true }
 onnx2torch = ">=1.5"
 onnxruntime = { version = ">=1.17", optional = true }
 onnxruntime-gpu = { version = ">=1.17", optional = true }
